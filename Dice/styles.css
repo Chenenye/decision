@@ -1,0 +1,76 @@
+body {
+ margin:0;
+ background-color: rgb(24, 21, 171);
+ 
+}
+.hero {
+  background-color: orange;
+  background-image:url("/Users/nwamakadawson/Desktop/Web Development/Dice/images/balls.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  padding-top: 50px;
+  padding-bottom:180px;
+  border-bottom-right-radius: 60%;
+  border-bottom-left-radius: 60%;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+
+}
+
+.heading {
+  max-width: 960px;
+  margin: 0 auto; 
+  padding-top:3%;
+  text-align:center;
+  letter-spacing: .5rem;
+  color:rgb(238, 242, 245);
+  font-family: 'Slackey', cursive;
+  font-size: 5rem;  
+  text-shadow: rgb(181, 64, 231) 4px 0 10px;
+}
+
+.heading-subtext {
+  max-width: 960px;
+  margin: 0 auto; 
+  text-align:center;
+  letter-spacing: .2rem;
+  color:rgb(238, 242, 245);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 2px rgb(2, 1, 19);
+  padding-top: 4%;
+}
+/* Input to be decided  */
+.wrapper {
+  padding-top:20px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice-area {
+  padding-right:10%;
+  padding-left:10%;
+  margin:0 40px;
+  display: inline-block;
+}
+
+.dice-area-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  color:rgb(238, 242, 245);
+  text-align:center;
+  
+}
+
+/* Winner Result */
+h2 {
+  padding-top: 4%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  color:rgb(238, 242, 245);
+  text-align:center;
+}
+
+img {
+  width: 9rem;
+}
